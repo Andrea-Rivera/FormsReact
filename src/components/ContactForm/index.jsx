@@ -33,7 +33,7 @@ return (
     <strong>Email</strong> 
     <input type="email"onChange={(event)=>{setEmail(event.target.value); validateForm()}} />
     </label><br/>
-    <button disabled={!isValid} onClick={()=>{
+    <button className={classes.buttonForm} disabled={!isValid} onClick={()=>{
         validateForm()
         setIsSubmitted(true)
         }} > <strong>Submit</strong> </button>
