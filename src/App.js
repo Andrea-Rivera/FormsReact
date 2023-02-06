@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import MainForm from "./components/pages/MainForm";
+import "./App.css";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Forms</h1>
+      <p>
+        The submit button will only be activated once the user has entered the
+        input correctly.
+      </p>
+      <MainForm />
     </div>
   );
-}
+};
 
 export default App;
