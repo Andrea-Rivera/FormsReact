@@ -10,7 +10,7 @@ input {
 
 }
 
-button{
+.buttonForm{
     padding: 10px 20px;
     background-color: rgb(105, 119, 241);
     border-radius: 10px;
